@@ -1,0 +1,11 @@
+.idea
+
+.env
+pubnub.log
+node_modules/
+public/assets/
+public/assets.json
+tmp/
+/public/js/
+.DS_Store
+apps/web/assets/yarn-error.log
