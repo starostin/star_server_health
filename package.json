@@ -25,12 +25,12 @@
     "node-homeassistant": "^1.5.0",
     "node-telegram-bot-api": "^0.30.0",
     "telegraf": "^3.25.0",
-    "ws": "^6.1.2"
+    "ws": "^6.1.2",
+    "nodemon": "^1.18.7"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "nodemon": "^1.18.7"
+    "eslint-plugin-import": "^2.14.0"
   }
 }
