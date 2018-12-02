@@ -12,7 +12,7 @@ const maxReconnectRetries = 3;
 let reconnectRetries = 0;
 
 // Create a bot that uses 'polling' to fetch new updates
-const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(token);
 
 const ha = new Homeassistant({
   host: 'star-asusrouter.asuscomm.com',
