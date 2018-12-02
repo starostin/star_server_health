@@ -45,7 +45,6 @@ ha.on('connection', (info) => {
 });
 
 app.get('/', (request, response) => {
-  bot.sendMessage(chatId, 'Hi from server');
   response.send('Hello from Express!');
 });
 
