@@ -20,13 +20,16 @@
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^6.1.0",
+    "engine.io-client": "^3.3.1",
     "express": "^4.16.4",
     "home-assistant-js-websocket": "^3.2.4",
-    "node-homeassistant": "^1.5.0",
     "node-telegram-bot-api": "^0.30.0",
+    "node-homeassistant": "git+https://github.com/starostin/node-homeassistant.git",
+    "nodemon": "^1.18.7",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
     "telegraf": "^3.25.0",
-    "ws": "^6.1.2",
-    "nodemon": "^1.18.7"
+    "ws": "^6.1.2"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
