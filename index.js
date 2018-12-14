@@ -19,7 +19,7 @@ const ha = new Homeassistant({
   protocol: 'wss', // "ws" (default) or "wss" for SSL
   retryTimeout: 20000, // in ms, default is 5000
   retryCount: -1, // default is 10, values < 0 mean unlimited
-  password: process.env.API_PASSWORD,
+  access_token: process.env.HA_TOKEN,
   port: ''
 });
 
